@@ -13,12 +13,13 @@ Bu C++ programı, iki oyuncu arasında basit bir savaş simülasyonunu gerçekle
 - Rastgele sayı üretimi için `std::srand(std::time(0));` kullanılır.
 - Birinci oyuncu (`player1`) ve ikinci oyuncu (`player2`) sırayla birbirlerine saldırır.
 - Savaş, bir oyuncunun sağlığı 0'a düşene kadar devam eder.
-
-  # Örnek Kullanım
+- `setlocale(LC_ALL, "Turkish");` ifadesi ile Türkçe karakter desteği sağlanır.
+ 
+ # Örnek Kullanım
   - `main` fonksiyonu içinde iki oyuncu nesnesi oluşturulur.
   -  Oyuncular birbirlerine sırayla saldırırlar ve her saldırı sonrasında durum ekrana yazdırılır.
   -  Savaş, bir oyuncu mağlup olana kadar devam eder.
-
+  
     **Bu örnek, basit bir savaş simülasyonunu gerçekleştirir ve sınıf yapısının kullanımını gösterir.**
   
 # Ekran Resmi
@@ -29,3 +30,6 @@ Bu C++ programı, iki oyuncu arasında basit bir savaş simülasyonunu gerçekle
 | Herkese Açık | Geliştirilebilir | Zyra Software|
 |---------|---------|---------|
 | Açık | Geliştirilebilir |@zyrasoftware |
+
+
+
